@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #blue; /* Blue background color */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #003366; /* Dark blue header */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #77aaff;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #77aaff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: #77aaff 1px solid;
+}
+
+section#projects {
+    background: #f4f4f4;
+}
+
+section#contact {
+    background: #003366; /* Dark blue contact section */
+    color: #fff;
+}
+
+.profile-pic {
+    width: 100px; /* Reduced profile picture size */
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #fff; /* White border */
+    padding: 5px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    background: #003366; /* Dark blue footer */
+    color: #fff;
+    text-align: center;
+}
+
+
+

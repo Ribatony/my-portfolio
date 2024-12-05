@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: blue; /* Blue background color */
+            color: #611515; /* Changed text color for contrast */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #665c00; /* Dark blue header */
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header .highlight, header .current a {
+            color: #77aaff;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #ffc977;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px 0;
+            border-bottom: #77aaff 1px solid;
+        }
+
+        section#projects {
+            background: #f4f4f4;
+        }
+
+        section#contact {
+            background: #003366; /* Dark blue contact section */
+            color: #fff;
+        }
+
+        .profile-pic {
+            width: 100px; /* Reduced profile picture size */
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+            border: 2px solid #fff; /* White border */
+            padding: 5px;
+        }
+
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            flex: 1;
+            padding: 20px;
+        }
+
+        footer {
+            padding: 20px;
+            background: #003366; /* Dark blue footer */
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello there my name is Antony Kariba</p>
+            <p>Am currently a student at Karatina University pursuing bachelor of science in Information Technology</p> 
+            <p>Besides being a student i have taken advantage of the internet and learnt some few programming languages thanks to powelearn project and youtube</p>
+            <p>i have learnt some python bacics,front end web development and a little of backend but am yet to polish on that also in school i have learnt some C and C++</p>
+            <p>This is not my final portfolio since am only just starting on front end and i will keep improving as i gain more skills </p>
+            <img src="img/IMG_5677.JPG" alt="Profile Picture" class="profile-pic">
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h1>My Projects</h1>
+                     <p>Check out my latest project: <a href="https://github.com/Ribatony/html-javascrpit/blob/e17ec56c2b1199ad5cb05997f683eafdc5616edc/index%2Bjavascript.html" target="_blank">Interactive HTML & JavaScript Project</a></p>
+                     <p>This project showcases my skills in creating dynamic web pages using HTML and JavaScript. It includes interactive elements and demonstrates my understanding of front-end development.</p>
+            </div>
+                </div>
+            </div>
+        
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p> Email:<a href="muriutony2@gmail.com">muriutony2@gmail.com</a></p>
+            <p>Phone +254758764284</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/tony-muriu-980a85275" target ="_blank">tony-muriu-980a85275</a> </p>
+            <p>Github: <a href="https://www.github.com/Ribatony" target="_blank">github.com/RibaTony</a></p>
+            <p>Twitter: <a href="https://www.x.com/riba40314935" target="_blank>">x.com/riba40314935</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/riba4031" target="_blank">instagram.com/riba4031</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024  Antony Kariba</p>
+        </div>
+    </footer>
+</body>
+</html>
